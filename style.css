@@ -1,0 +1,366 @@
+html{
+font-family: "Roboto-mono";
+    
+}  
+
+header {
+background-color: #9b9b9b;
+color: whitesmoke;
+width: 100%;
+margin: 0;
+height: 85px;
+position:sticky;
+top: 0;
+z-index: 1000;
+
+}
+.nav-contain{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fot {
+  font-family: 'Rubik', sans-serif;
+  font-size: 2em;
+  text-align: left;
+  margin: 0 0 1px 30px;
+}
+nav ul {
+  visibility: collapse;
+  list-style-type: none;
+  display:flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+  
+}
+
+
+nav ul li a {
+  color: whitesmoke;
+  display: flex;
+  text-decoration: none;
+  
+  
+}
+
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+.about{
+  margin: 1px 0 0 10px;
+  visibility: visible;
+  font-size: 1.5rem;
+  background-color: #9dc20a;
+  height: 30px;
+  width: 70px;
+  padding: 10px 0 10px 20px;
+  border-radius: 15px;
+  border: 2px solid white;
+  
+}
+#join{
+  margin: 0 0 5px 5px;
+}
+
+#instagram-symbol{
+  visibility: visible;
+  width: 50px;
+  height: 50px;
+  border-radius: 13px;
+  margin-right: 30px;
+  margin-top: 2px;
+}
+
+  a{
+    color:black;
+  }
+  .background-photo{
+    background-image: url('fotomat images/banner-landingpage.jpg');
+    background-size: cover;
+    height: 80vh;
+    display:flex;
+    
+  }
+  .background-photo::content{
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .text-box {
+    margin-top: 170px;
+    margin-left: 100px;
+    color: whitesmoke;
+    height: 320px;
+    width: 500px;
+    background-color: #9dc20a;
+    text-align: center;
+    border-radius: 8px;
+  }
+  .button{
+    text-align: center;
+    height: 64px;
+    width: 408px;
+    display: inline-block;
+    background-color: #4a4a4a;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    margin-top: 26px;
+  }
+  .ab{
+    color: whitesmoke;
+    text-decoration: none;
+    display:block;
+    font-size: 1.3em;
+    margin-top: 18px;
+    
+    
+  }
+  #Ins{
+    font-family: 'Rubik', sans-serif;
+    margin-top: 32px;
+    font-size: 2.5em;
+    font-style: italic;
+  }
+  #fc{
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.4;
+    font-size: 3.125em;
+    margin: -35px;
+    text-align: center;
+  }
+  #email{
+    margin: 47px 50px 0 50px;
+    font-size: 1.15em;
+  }
+  
+.contain-2boxes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 30px; 
+  padding-left: 30px;
+  padding-right:30px;
+}
+
+.image-box {
+  padding: 30px;
+  background-color: #f0f0f0;
+  
+  text-align: center;
+  margin-top: 30px;
+  
+  
+}
+
+.image-box img {
+  max-width: 90%;
+  height: auto;
+  margin-top: 30px;
+  justify-content: center;
+  
+}
+
+.image-box h2 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  
+}
+#advert{
+  font-size: 2rem;
+  margin-top: 50px;
+}
+
+#discribe{
+  font-size:1.3rem;
+  margin: 20px 60px 0 60px;
+}
+
+.contain-eg{
+  color: whitesmoke;
+  background-color: #4a4a4a;
+  text-align: center;
+}
+#filters{
+  padding-top: 64px;
+  font-size: 36px;
+}
+#creativity{
+  padding-bottom: 80px;
+  font-size: 20px;
+  margin: 0 33% 0 33%;
+}
+.contain-eg .photos {
+  display: flex;
+  flex-wrap: nowrap; 
+  justify-content: space-between; 
+}
+
+.contain-eg .photos img {
+  width: 23%; 
+  margin: 0 1% 64px 1%
+}
+.quote{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  background-color:whitesmoke;
+
+}
+#truly{
+  text-align: center;
+    font-style: italic;
+    font-size: 30px;
+    line-height: 1.1;
+    color: #4a4a4a;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+#national{
+  margin-left: 30px;
+}
+footer{
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: whitesmoke;
+  background-color: #9b9b9b;
+}
+#rights{
+margin-left: 10px;
+}
+#nyc{
+margin-right: 10px;
+}
+/* CSS for screens smaller than 768px (typically smartphones) */
+@media only screen and (max-width: 768px) and (orientation: portrait){ 
+  
+ body{
+  display: inline-block;
+ }
+ 
+
+ header{
+  max-width: 100%;
+  
+  
+ }
+ .background-photo {
+    background-image: url('fotomat images/banner-landingpage.jpg');
+    background-size: cover;
+    height: 55vh;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+  }
+  .text-box {
+  background-color: rgba(0, 0, 0, 0.3);
+  background-size: cover;
+  margin: 0 0 0 0;
+  width:100%;
+  height: 100%;
+  }
+  .button{
+    position:absolute;
+    left: -9999px;
+  }
+  #email{
+    position:absolute;
+    left: -9999px;
+  }
+  
+  
+#Ins {
+  font-size: 3.5em;
+  color: white;
+  font-weight: normal;
+  
+  margin: 100px 20px 0 0;
+  font-style: bold;
+  z-index: 9999;
+  
+}
+  /**
+ * Sets visibility of #fc element to visible.
+ * Sets left margin of #fc element to -28%. 
+ * Sets font style of #fc element to bold.
+ */
+#fc {
+    font-size: 3.5em;
+    color: white;
+    font-weight:normal;
+    
+    margin: 20px 0 20px 0;
+    font-style: bold;
+  }
+
+/**.button{
+  
+  margin-top: -20%;
+  margin-right: 25%;
+  background-color:  #9dc20a;
+  
+} **/
+.ab{
+  font-size: 1.5rem;
+}
+li{
+  visibility: hidden;
+}
+#instagram-symbol{
+  visibility: visible;
+  height: 50px;
+  width: 50px;
+  margin-right: 30px;
+  border-radius: 13px;
+}
+#discribe{
+  font-size: 1.7rem;
+  margin: 20px 10px 0 10px;
+}
+}
+@media only screen and (max-width: 768px) and (orientation: landscape){
+  .text-box{
+  background-color: rgba(0, 0, 0, 0.3);
+  background-size: cover;
+  margin: 0 0 0 0;
+  width:100%;
+  height: 100%;
+  }
+  #Ins{
+    margin: 65px 0 0 0;
+    font-size: 3em;
+  }
+  #fc{
+    font-size: 3em;
+    margin: 40px 0 0 0;
+    white-space: nowrap; 
+  }
+  .button{
+    visibility: hidden;
+  }
+  #email{
+    visibility: hidden;
+  }
+  #discribe{
+    margin: 30px 0 20px 0;
+  }
+
+}
+
+/* CSS for screens between 768px and 1024px (typically tablets) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  
+  
+}
+
+/* CSS for screens larger than 1024px (typically desktops and laptops) */
+@media only screen and (min-width: 1025px) {
+  
+  
+}
+
+
+
