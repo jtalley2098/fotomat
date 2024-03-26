@@ -65,10 +65,18 @@ nav ul li a:hover {
   margin: 0 0 5px 5px;
 }
 .pop-up {
+  display: none;
   position: absolute;
   padding: 20px;
+  height: 300px;
+  width: 1000px;
   background: #fff;
   border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+  margin-top: 10px;
+
 }
 
 
