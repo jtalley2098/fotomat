@@ -18,7 +18,7 @@ joinLink.addEventListener("mouseout", () => {
   popUp.style.display = "none";
 });
 
-const colorChange = document.getElementById("butt");
+const colorChange = document.getElementById("button");
 
 colorChange.addEventListener("mouseover", () => {
   colorChange.style.backgroundColor = "#565656";
