@@ -113,7 +113,7 @@ nav ul li a {
     margin-top: 170px;
     margin-left: 100px;
     color: whitesmoke;
-    height: 320px;
+    height: 350px;
     width: 500px;
     background-color: #9dc20a;
     text-align: center;
@@ -143,8 +143,8 @@ nav ul li a {
   #Ins{
     font-family: 'Rubik', sans-serif;
     margin-top: 32px;
-    font-size: 2.5em;
-    font-style: italic;
+    font-size: 3.125em;
+    
   }
   #fc{
     font-family: 'Rubik', sans-serif;
@@ -302,7 +302,7 @@ margin-right: 10px;
     margin: 0 20px 40px 0;
   }
   .form-words{
-    margin-left: 50px;
+    margin: 50px 0 50px 30px;
     text-align: left;
     font-size: 1.2rem;
     font-family: 'Rubik', sans-serif;
@@ -398,7 +398,7 @@ li{
   display:none;
 }
 }
-@media only screen and (max-width: 768px) and (orientation: landscape){
+@media only screen and (max-width: 770px) and (orientation: landscape){
   .text-box{
   background-color: rgba(0, 0, 0, 0.3);
   background-size: cover;
